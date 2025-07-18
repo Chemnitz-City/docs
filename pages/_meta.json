@@ -1,6 +1,5 @@
 {
   "index": "Overview",
-  "changelog": "Changelog",
-  "installation": "Installation"
+  "ic": "IC-Regelwerk",
+  "ooc": "OOC-Regelwerk"
 }
-

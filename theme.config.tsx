@@ -5,18 +5,18 @@ const basePath = ''
 const config = {
   logo: (
     <>
-      <img src={`${basePath}/tokovoip.png`} width="36" />
-      <h1 className="nx-font-bold nx-text-2xl">TokoVoIP Docs</h1>
+      <img src={`${basePath}/cc.png`} width="36" />
+      <h1 className="nx-font-bold nx-text-2xl">Chemnitz City Regelwerke</h1>
     </>
   ),
   head: (
     <>
-      <link rel="icon" type="image/png" href={`${basePath}/tokovoip.png`} />
+      <link rel="icon" type="image/png" href={`${basePath}/cc.png`} />
     </>
   ),
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – TokoVoIP',
+      titleTemplate: '%s –Chemnitz City',
     }
   },
   editLink: {
@@ -26,9 +26,9 @@ const config = {
     content: () => <></>,
   },
   project: {
-    link: 'https://github.com/GamingLuke1337/tokovoip-docs',
+    link: 'https://github.com/Chemnitz-City/docs/',
   },
-  docsRepositoryBase: 'https://github.com/GamingLuke1337/tokovoip-docs',
+  docsRepositoryBase: 'https://github.com/Chemnitz-City/docs/',
   footer: {
     text: '© 2025 GamingLuke1337.',
   },
